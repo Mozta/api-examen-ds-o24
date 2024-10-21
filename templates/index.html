@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu API Documentation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        header {
+            text-align: center;
+            padding: 10px;
+        }
+        h1 {
+            color: #333;
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        code {
+            background-color: #f4f4f4;
+            padding: 2px 6px;
+            border-radius: 4px;
+            color: #d63384;
+        }
+        ul {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Restaurant Menu API Documentation 🌮</h1>
+        <p>Welcome to the API of the Restaurant Menu. Below are the available routes to interact with the API.</p>
+    </header>
+    <div class="container">
+        <h2>Available Endpoints:</h2>
+        <ul>
+            <li>
+                <strong>Get all menu items:</strong> <br>
+                <code>GET /menu</code> <br>
+                Returns a list of all menu items in JSON format.
+            </li>
+            <br>
+            <li>
+                <strong>Get a specific menu item by ID:</strong> <br>
+                <code>GET /menu/&lt;int:item_id&gt;</code> <br>
+                Returns a specific menu item by its ID.
+            </li>
+        </ul>
+
+        <h2>Response Example:</h2>
+        <pre><code>
+GET /menu/1
+Response:
+{
+    "id": 1,
+    "name": "Tacos al Pastor",
+    "price": 25.00,
+    "description": "Tacos con carne de cerdo adobada, piña, cilantro y cebolla"
+}
+        </code></pre>
+
+        <h2>Error Handling:</h2>
+        <ul>
+            <li>
+                <strong>Item not found:</strong> <br>
+                If the requested menu item is not found, the API will return: <br>
+                <code>{ "error": "Item not found" }</code> with a 404 status code.
+            </li>
+            <br>
+            <li>
+                <strong>File or JSON errors:</strong> <br>
+                In case of an issue with the menu file, the API will return: <br>
+                <code>{ "error": "File not found" }</code> or <code>{ "error": "Error decoding JSON" }</code> with a 500 status code.
+            </li>
+        </ul>
+
+        <h5>Ester Egg 🥚</h5>
+        <p>Try to access the root URL <code>software</code> to see this documentation.</p>
+    </div>
+</body>
+</html>
