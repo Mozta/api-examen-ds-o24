@@ -1,7 +1,9 @@
 from flask import Flask, jsonify, render_template
+from flask_cors import CORS
 import json
 
 app = Flask(__name__)
+CORS(app)
 
 
 # Cargar los ítems del menú desde un archivo JSON
