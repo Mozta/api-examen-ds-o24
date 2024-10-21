@@ -1,0 +1,182 @@
+[
+    {
+        "id": 1,
+        "name": "Tacos al Pastor",
+        "price": 25.00,
+        "description": "Tacos con carne de cerdo adobada, piña, cilantro y cebolla"
+    },
+    {
+        "id": 2,
+        "name": "Guacamole",
+        "price": 60.00,
+        "description": "Crema de aguacate fresca con tomate, cebolla, cilantro y limón"
+    },
+    {
+        "id": 3,
+        "name": "Enchiladas Verdes",
+        "price": 90.00,
+        "description": "Tortillas rellenas de pollo bañadas en salsa verde con queso"
+    },
+    {
+        "id": 4,
+        "name": "Chiles en Nogada",
+        "price": 150.00,
+        "description": "Chiles rellenos de picadillo cubiertos con salsa de nogada y granada"
+    },
+    {
+        "id": 5,
+        "name": "Pozole",
+        "price": 80.00,
+        "description": "Sopa tradicional mexicana con maíz cacahuazintle y carne de cerdo"
+    },
+    {
+        "id": 6,
+        "name": "Quesadillas",
+        "price": 30.00,
+        "description": "Tortillas de maíz rellenas de queso y otros ingredientes"
+    },
+    {
+        "id": 7,
+        "name": "Tamales",
+        "price": 25.00,
+        "description": "Masa de maíz rellena de diferentes guisos, envuelta en hojas de maíz"
+    },
+    {
+        "id": 8,
+        "name": "Sopes",
+        "price": 35.00,
+        "description": "Tortillas gruesas con frijoles, crema, lechuga y queso"
+    },
+    {
+        "id": 9,
+        "name": "Mole Poblano",
+        "price": 120.00,
+        "description": "Pollo en salsa de mole hecha con chiles, chocolate y especias"
+    },
+    {
+        "id": 10,
+        "name": "Tostadas",
+        "price": 40.00,
+        "description": "Tortillas crujientes con frijoles, lechuga, crema y salsa"
+    },
+    {
+        "id": 11,
+        "name": "Pambazos",
+        "price": 45.00,
+        "description": "Pan frito relleno de papas con chorizo, bañado en salsa roja"
+    },
+    {
+        "id": 12,
+        "name": "Barbacoa",
+        "price": 140.00,
+        "description": "Carne de borrego cocida al vapor, tradicionalmente en hoyo"
+    },
+    {
+        "id": 13,
+        "name": "Cochinita Pibil",
+        "price": 95.00,
+        "description": "Carne de cerdo marinada en achiote y cocida en horno"
+    },
+    {
+        "id": 14,
+        "name": "Tortas",
+        "price": 50.00,
+        "description": "Pan relleno de carnes, frijoles, aguacate y otros ingredientes"
+    },
+    {
+        "id": 15,
+        "name": "Tamal Oaxaqueño",
+        "price": 30.00,
+        "description": "Tamal envuelto en hoja de plátano, relleno de mole o salsa verde"
+    },
+    {
+        "id": 16,
+        "name": "Tacos de Canasta",
+        "price": 18.00,
+        "description": "Tacos suaves rellenos de frijoles, chicharrón o papas"
+    },
+    {
+        "id": 17,
+        "name": "Gorditas",
+        "price": 35.00,
+        "description": "Tortillas gruesas rellenas de carne, frijoles o queso"
+    },
+    {
+        "id": 18,
+        "name": "Carnitas",
+        "price": 120.00,
+        "description": "Carne de cerdo cocida en su propia grasa, servida en tacos"
+    },
+    {
+        "id": 19,
+        "name": "Birria",
+        "price": 130.00,
+        "description": "Carne de res o chivo cocida en un caldo especiado"
+    },
+    {
+        "id": 20,
+        "name": "Empanadas",
+        "price": 25.00,
+        "description": "Masa rellena de carne, pollo o queso, frita o al horno"
+    },
+    {
+        "id": 21,
+        "name": "Elotes y Esquites",
+        "price": 25.00,
+        "description": "Maíz cocido con mayonesa, queso, limón y chile"
+    },
+    {
+        "id": 22,
+        "name": "Flautas",
+        "price": 40.00,
+        "description": "Tortillas enrolladas y fritas, rellenas de pollo o papa"
+    },
+    {
+        "id": 23,
+        "name": "Arroz a la Mexicana",
+        "price": 25.00,
+        "description": "Arroz cocido con jitomate, zanahorias y chícharos"
+    },
+    {
+        "id": 24,
+        "name": "Chilaquiles",
+        "price": 60.00,
+        "description": "Totopos bañados en salsa verde o roja, con queso y crema"
+    },
+    {
+        "id": 25,
+        "name": "Tacos de Barbacoa",
+        "price": 140.00,
+        "description": "Tacos con carne de barbacoa de borrego"
+    },
+    {
+        "id": 26,
+        "name": "Huaraches",
+        "price": 50.00,
+        "description": "Tortilla alargada con frijoles, carne, crema y salsa"
+    },
+    {
+        "id": 27,
+        "name": "Caldo Tlalpeño",
+        "price": 65.00,
+        "description": "Sopa de pollo con garbanzos, zanahorias y chipotle"
+    },
+    {
+        "id": 28,
+        "name": "Tlacoyos",
+        "price": 30.00,
+        "description": "Masa ovalada rellena de frijoles o requesón, acompañada de nopales"
+    },
+    {
+        "id": 29,
+        "name": "Enfrijoladas",
+        "price": 45.00,
+        "description": "Tortillas bañadas en salsa de frijol con crema y queso"
+    },
+    {
+        "id": 30,
+        "name": "Sopa Azteca",
+        "price": 55.00,
+        "description": "Sopa de tortilla con jitomate, crema, aguacate y queso"
+    }
+]
